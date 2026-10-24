@@ -1,0 +1,215 @@
+---
+name: Obsidian Metric
+colors:
+  surface: '#0f131d'
+  surface-dim: '#0f131d'
+  surface-bright: '#353944'
+  surface-container-lowest: '#0a0e18'
+  surface-container-low: '#171b26'
+  surface-container: '#1c1f2a'
+  surface-container-high: '#262a35'
+  surface-container-highest: '#313540'
+  on-surface: '#dfe2f1'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dfe2f1'
+  inverse-on-surface: '#2c303b'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#4edea3'
+  on-secondary: '#003824'
+  secondary-container: '#00a572'
+  on-secondary-container: '#00311f'
+  tertiary: '#bdc2ff'
+  on-tertiary: '#131e8c'
+  tertiary-container: '#7c87f3'
+  on-tertiary-container: '#081486'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#e0e0ff'
+  tertiary-fixed-dim: '#bdc2ff'
+  on-tertiary-fixed: '#000767'
+  on-tertiary-fixed-variant: '#2f3aa3'
+  background: '#0f131d'
+  on-background: '#dfe2f1'
+  surface-variant: '#313540'
+typography:
+  headline-xl:
+    fontFamily: Geist
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Geist
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Geist
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.02em
+  headline-sm:
+    fontFamily: Geist
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.015em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Geist
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: -0.005em
+  body-sm:
+    fontFamily: Geist
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: '0'
+  metric-stat:
+    fontFamily: Geist
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.03em
+  label-code:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  label-badge:
+    fontFamily: Geist
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 0.75rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+---
+
+## Brand & Style
+
+The design system establishes an ultra-focused, high-precision visual environment tailored for SaaS analytics, real-time telemetry, and executive operational management. It targets operators, founders, and engineering leaders who require immediate signal over noise on mobile devices.
+
+The design movement merges **Modern Developer-First Minimalism** with subtle **High-Fidelity Glassmorphism**. Drawing inspiration from tools like Linear, Vercel, and Stripe, the aesthetic is defined by:
+- Deep obsidian canvas tones that eliminate screen glare and battery drain.
+- Sub-pixel hairline boundaries that partition dense metrics without visual bulk.
+- High-contrast electric accents that draw the eye strictly to critical state changes, velocity vectors, and executive KPIs.
+- Tactile, dense, and crisp interactions optimized for rapid thumb scans and fluid touch feedback.
+
+## Colors
+
+The palette is engineered exclusively for an immersive, high-contrast dark mode. It enforces rigorous contrast ratios across data visualizations and micro-surfaces.
+
+### Palette Architecture
+- **Canvas Base (`#0B0F19`):** Ground zero for screen surfaces. Pure visual void that makes vibrant signals emerge sharply.
+- **Surface Layer 1 / Cards (`#111827`):** Elevated container level for primary modular cards and list blocks.
+- **Surface Layer 2 / Overlays (`#1F2937`):** Elevated elements, bottom sheets, active toggles, and popover menus.
+- **Primary Accent (`#6366F1` & `#818CF8`):** Electric Indigo acts as the system's operational pulse, applied strictly to interactive calls-to-action, active segment pills, and focused states.
+- **Growth / Positive Signal (`#10B981`):** Precision Emerald reserved for upward growth trajectories, system health confirmations, and positive variances.
+- **Hairline Borders (`rgba(255, 255, 255, 0.08)` / `#374151`):** Structural delineation ensuring components remain sharp without introducing muddy gray lines.
+- **Text Tiers:** Primary headers sit at `#F9FAFB` (98% white), supporting body text at `#9CA3AF`, and micro labels/captions at `#6B7280`.
+
+## Typography
+
+The type system pairs **Geist** for crisp, proportional geometric UI hierarchy with **JetBrains Mono** for raw metric units, timestamps, delta calculations, and status codes.
+
+- **Numerics & Data Clarity:** All quantitative values and deltas utilize tabular figures (`font-variant-numeric: tabular-nums`) to prevent horizontal jitter during live telemetry streaming.
+- **Tight Letter-Spacing:** Negative tracking on headers provides an engineered, authoritative silhouette standard in leading engineering interfaces.
+- **Hierarchy Enforcement:** Headline levels guide module partitioning; `metric-stat` elevates raw performance figures; `label-code` handles metadata tags, execution timestamps, and API status payloads.
+
+## Layout & Spacing
+
+Designed fundamentally for mobile ergonomics, the layout enforces a disciplined 4px base modular unit, standardizing on a fluid single-column spine structured inside safe device bounds.
+
+### Mobile Grid & Constraints
+- **Outer Canvas Safe Margin:** 16px (`1rem`) on horizontal mobile boundaries to maximize screen real estate while protecting against edge clipping.
+- **Vertical Rhythm:** Components stack with predictable, compact vertical gaps (`space-md` for grouped items, `space-lg` between distinct analytical cards).
+- **Metric Grids:** 2-column micro-dashboards inside cards utilize `gutter` (12px) to allow simultaneous side-by-side KPI observation (e.g., MRR vs. Churn) without crowding touch targets.
+- **Touch Reachability:** Actionable triggers, filter strips, and primary switches are anchored within bottom thumbsweep zones.
+
+## Elevation & Depth
+
+Visual hierarchy does not rely on heavy, blurred drop shadows. Instead, it operates on a strict **luminance tiering and hairline boundary framework**:
+
+1. **Backdrop Base (Level 0):** Hex `#0B0F19`, dead matte finish.
+2. **Standard Containers (Level 1):** Hex `#111827` overlaid with a 1px solid hairline border of `rgba(255, 255, 255, 0.08)`. Surfaces are completely opaque to preserve high rendering speed on mobile displays.
+3. **Floating & Glass Panels (Level 2):** Semi-transparent surfaces (`rgba(17, 24, 39, 0.75)`) backed by a hardware-accelerated `backdrop-filter: blur(16px)` and a top-edge highlight border (`rgba(255, 255, 255, 0.12)`). Used exclusively for fixed navigation headers, floating metric action bars, and sticky pill bars.
+4. **Active Luminescence (Glow):** Primary interactive triggers and key growth spikes receive a controlled, ambient drop glow: `0 0 20px rgba(99, 102, 241, 0.25)` or `0 0 16px rgba(16, 185, 129, 0.2)`. No muddy black shadows are used anywhere in the system.
+
+## Shapes
+
+The shape system employs roundedness level **2**, striking a balance between modern software precision and comfortable mobile hand ergonomics.
+
+- **Cards & Data Modules:** 8px (`0.5rem`) corner radius. Clean, structural, and architecturally solid.
+- **Modal Sheets & Overlays:** 16px (`1rem` / `rounded-lg`) along top sheet edges to soften modal sheet transitions.
+- **Interactive Badges, Metric Chips & Pills:** Full pill profile (`rounded-full` / `9999px`) to create an instant optical distinction between operational structural cards and interactive controls.
+- **Input Fields & Buttons:** 8px (`0.5rem`) corner radius matching parent card containers for visual cohesion.
+
+## Components
+
+### Metric Cards
+- **Structure:** Level 1 background (`#111827`), 1px hairline border (`rgba(255, 255, 255, 0.08)`), 8px border radius, 12px internal padding.
+- **Header Slot:** Metric label (`body-sm`, `#9CA3AF`) left-aligned; micro-badge or time range selector right-aligned.
+- **Metric Row:** Main figure formatted in `metric-stat` (`#F9FAFB`) with sparklines or live delta indicators (`JetBrains Mono`, `#10B981` or `#EF4444`) inline.
+
+### Buttons & Interactive Controls
+- **Primary Button:** Background `#6366F1`, hover/active `#818CF8`, text `#FFFFFF` (`body-md`, semi-bold). Subtle edge highlight `inset 0 1px 0 rgba(255, 255, 255, 0.2)`. Minimum touch target: 44px height.
+- **Secondary / Ghost Button:** Background `rgba(255, 255, 255, 0.04)`, 1px border `rgba(255, 255, 255, 0.08)`, text `#F9FAFB`.
+- **Icon Actions:** 36x36px square bounds with 8px radius, centered 18px stroke icons in `#9CA3AF`.
+
+### Micro-Badges & Status Chips
+- **Trend Pills:** Pill-shaped (`rounded-full`), padding `2px 8px`. Growth variant uses `rgba(16, 185, 129, 0.12)` background, `#10B981` text, displaying trend arrows `↑` or `↓`.
+- **System Status Badge:** Monospaced label (`label-code`) with a pulsing 6px circular indicator dot (Emerald `#10B981` for active systems, Amber `#F59E0B` for degraded).
+
+### Segmented Filter Pills
+- Mobile horizontal scrolling rack with masked edge fade.
+- Inactive state: Transparent background, text `#9CA3AF`.
+- Active state: Pill background `#1F2937`, text `#FFFFFF`, 1px border `rgba(255, 255, 255, 0.12)`.
+
+### Lists & Transaction Feeds
+- Edge-to-edge content strips inside containers separated by 1px hairline horizontal dividers (`rgba(255, 255, 255, 0.05)`).
+- Left: Monospaced status code or avatar icon. Center: Primary entity title and timestamp. Right: Monetary/KPI balance in high-contrast tabular Geist.
+
+### Input Fields & Search Bars
+- Background `#0B0F19` inset with 1px border `#374151`. Focus transitions the border to `#6366F1` with an ambient glow (`box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2)`).
+- Prefix iconography positioned at 12px inset in neutral muted tone (`#6B7280`).

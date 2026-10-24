@@ -1,0 +1,8 @@
+{
+  "name": "Nexus Analytics",
+  "description": "High-precision real-time SaaS telemetry, workspace projects, and operational analytics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
